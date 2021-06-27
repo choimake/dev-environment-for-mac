@@ -17,4 +17,5 @@ if !(type 'brew' > /dev/null 2>&1); then
 fi
 
 
-# TODO: Install via brew
+# Install via brew
+brew bundle --file=./Brewfile
