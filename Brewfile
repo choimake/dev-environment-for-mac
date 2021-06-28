@@ -1,1 +1,7 @@
 brew "mas"
+brew "git"
+brew "git-lfs"
+brew "tig"
+brew "zsh"
+brew "tmux"
+brew "vim"
