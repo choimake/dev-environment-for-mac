@@ -31,3 +31,7 @@ chmod u+x ./zsh/install.sh
 # tmux
 chmod u+x ./tmux/install.sh
 ./tmux/install.sh
+
+# editorconfig
+chmod u+x ./editorconfig/install.sh
+./editorconfig/install.sh
