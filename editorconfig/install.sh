@@ -12,6 +12,17 @@ insert_final_newline = true
 indent_style = space
 indent_size = 2
 
+[*.{yml,yaml}]
+indent_style = space
+indent_size = 2
+
+[*.md]
+trim_trailing_whitespace = false
+
 [.zshrc]
+indent_style = space
+indent_size = 2
+
+[*.{js,json}]
 indent_style = space
 indent_size = 2
