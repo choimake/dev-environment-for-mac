@@ -23,3 +23,7 @@ brew bundle --file=./Brewfile
 # vim
 chmod u+x ./vim/install.sh
 ./vim/install.sh
+
+# tmux
+chmod u+x ./tmux/install.sh
+./tmux/install.sh
