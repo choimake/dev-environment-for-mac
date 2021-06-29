@@ -1,28 +1,5 @@
-root = true
+#!/bin/sh
 
-[*]
-charset = utf-8
-end_of_line = lf
-indent_style = space
-indent_size = 4
-trim_trailing_whitespace = true
-insert_final_newline = true
+SCRIPT_DIR=$(cd $(dirname $0); pwd)
 
-[*.{sh,bash,zsh}]
-indent_style = space
-indent_size = 2
-
-[*.{yml,yaml}]
-indent_style = space
-indent_size = 2
-
-[*.md]
-trim_trailing_whitespace = false
-
-[.zshrc]
-indent_style = space
-indent_size = 2
-
-[*.{js,json}]
-indent_style = space
-indent_size = 2
+ln -sf $SCRIPT_DIR/.editorconfig ~/.editorconfig
