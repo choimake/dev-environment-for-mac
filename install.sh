@@ -24,6 +24,12 @@ fi
 # Install via brew
 brew bundle --file=./Brewfile
 
+# アプリケーションに実行許可を与える
+sudo xattr -dr com.apple.quarantine /Applications/Google\ Chrome.app
+sudo xattr -dr com.apple.quarantine /Applications/iTerm.app
+sudo xattr -dr com.apple.quarantine /Applications/firefox.app
+sudo xattr -dr com.apple.quarantine /Applications/Chatwork.app
+
 # vim
 chmod u+x ./vim/install.sh
 ./vim/install.sh
