@@ -19,3 +19,7 @@ fi
 
 # Install via brew
 brew bundle --file=./Brewfile
+
+# vim
+chmod u+x ./vim/install.sh
+./vim/install.sh
