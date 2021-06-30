@@ -29,6 +29,12 @@ sudo xattr -dr com.apple.quarantine /Applications/Google\ Chrome.app
 sudo xattr -dr com.apple.quarantine /Applications/iTerm.app
 sudo xattr -dr com.apple.quarantine /Applications/firefox.app
 sudo xattr -dr com.apple.quarantine /Applications/Chatwork.app
+sudo xattr -dr com.apple.quarantine /Applications/Alfred\ 4.app
+sudo xattr -dr com.apple.quarantine /Applications/Discord.app
+sudo xattr -dr com.apple.quarantine /Applications/Visual\ Studio\ Code.app
+sudo xattr -dr com.apple.quarantine /Applications/zoom.us.app
+sudo xattr -dr com.apple.quarantine /Applications/Notion.app
+sudo xattr -dr com.apple.quarantine /Applications/Thunderbird.app
 
 # vim
 chmod u+x ./vim/install.sh
@@ -45,3 +51,7 @@ chmod u+x ./tmux/install.sh
 # editorconfig
 chmod u+x ./editorconfig/install.sh
 ./editorconfig/install.sh
+
+# vscode(extensions)
+chmod u+x ./vscode/install.sh
+./vscode/install.sh
