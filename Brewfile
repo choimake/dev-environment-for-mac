@@ -18,6 +18,7 @@ cask "notion"
 cask "thunderbird"
 cask "discord"
 cask "docker"
+cask "insomnia"
 
 mas "Slack", id: 803_453_959
 mas "1Password", id: 1_333_542_190
