@@ -35,6 +35,7 @@ sudo xattr -dr com.apple.quarantine /Applications/Visual\ Studio\ Code.app
 sudo xattr -dr com.apple.quarantine /Applications/zoom.us.app
 sudo xattr -dr com.apple.quarantine /Applications/Notion.app
 sudo xattr -dr com.apple.quarantine /Applications/Thunderbird.app
+sudo xattr -dr com.apple.quarantine /Applications/Discord.app
 
 # vim
 chmod u+x ./vim/install.sh
