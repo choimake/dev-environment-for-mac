@@ -36,6 +36,10 @@ sudo xattr -dr com.apple.quarantine /Applications/zoom.us.app
 sudo xattr -dr com.apple.quarantine /Applications/Notion.app
 sudo xattr -dr com.apple.quarantine /Applications/Thunderbird.app
 sudo xattr -dr com.apple.quarantine /Applications/Discord.app
+sudo xattr -dr com.apple.quarantine /Applications/Docker.app
+
+# dockerはopenしないとコマンドが利用できない
+open /Applications/Docker.app
 
 # vim
 chmod u+x ./vim/install.sh
