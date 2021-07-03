@@ -63,3 +63,7 @@ chmod u+x ./editorconfig/install.sh
 # vscode(extensions)
 chmod u+x ./vscode/install.sh
 ./vscode/install.sh
+
+# anyenv
+chmod u+x ./anyenv/install.sh
+./anyenv/install.sh

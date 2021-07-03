@@ -69,3 +69,11 @@ alias dcnt='docker container'
 alias h='history'
 alias hs='history | grep'
 alias hsi='history | grep -i'
+
+
+#
+# anyenv
+#
+
+## 各種*envコマンドのパスを通す
+eval "$(anyenv init -)"
