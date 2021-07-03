@@ -9,7 +9,7 @@ if !(type 'brew' > /dev/null 2>&1); then
   /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 
   # Add brew path.(M1)
-  if [ test $(sysctl -a machdep.cpu.brand_string | awk '{print $3}') -eq 'M1']; then
+  if [ $(sysctl -a machdep.cpu.brand_string | awk '{print $3}') = 'M1' ]; then
     echo 'eval "$(/opt/homebrew/bin/brew shellenv)"' >> ~/.zprofile
     eval "$(/opt/homebrew/bin/brew shellenv)"
   fi
