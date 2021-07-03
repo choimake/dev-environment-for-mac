@@ -5,6 +5,7 @@ brew "tig"
 brew "zsh"
 brew "tmux"
 brew "vim"
+brew "anyenv"
 
 cask "iterm2"
 cask "google-chrome"
