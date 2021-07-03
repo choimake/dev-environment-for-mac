@@ -8,9 +8,11 @@ if !(type 'brew' > /dev/null 2>&1); then
   # Install brew command.
   /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 
-  # Add brew path.
-  echo 'eval "$(/opt/homebrew/bin/brew shellenv)"' >> ~/.zprofile
-  eval "$(/opt/homebrew/bin/brew shellenv)"
+  # Add brew path.(M1)
+  if [ test $(sysctl -a machdep.cpu.brand_string | awk '{print $3}') -eq 'M1']; then
+    echo 'eval "$(/opt/homebrew/bin/brew shellenv)"' >> ~/.zprofile
+    eval "$(/opt/homebrew/bin/brew shellenv)"
+  fi
 
   # If install brew failed, exit this script.
   if !(type 'brew' > /dev/null 2>&1); then
