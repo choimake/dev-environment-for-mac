@@ -8,5 +8,6 @@ git clone https://github.com/choimake/dev-environment-for-mac.git
 ```
 インストール用のshellを実行します。
 ```
-./dev-environment-for-mac/install.sh
+cd dev-environment-for-mac
+./install.sh
 ```
