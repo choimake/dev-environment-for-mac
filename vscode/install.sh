@@ -16,6 +16,11 @@ code --install-extension mehedidracula.php-namespace-resolver
 code --install-extension marabesi.php-import-checker
 code --install-extension damianbal.vs-phpclassgen
 code --install-extension bmewburn.vscode-intelephense-client
+code --install-extension streetsidesoftware.code-spell-checker
+code --install-extension formulahendry.auto-rename-tag
+code --install-extension formulahendry.auto-close-tag
+code --install-extension christian-kohler.path-intellisense
+code --install-extension evilz.vscode-reveal
 
 # VSCode+vimでリピートキーを有効にするコマンド
 # https://github.com/VSCodeVim/Vim/issues/729
