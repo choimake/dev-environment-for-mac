@@ -6,6 +6,7 @@ brew "zsh"
 brew "tmux"
 brew "vim"
 brew "anyenv"
+brew "graphviz"
 
 cask "iterm2"
 cask "google-chrome"
