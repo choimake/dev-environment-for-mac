@@ -21,6 +21,7 @@ code --install-extension formulahendry.auto-rename-tag
 code --install-extension formulahendry.auto-close-tag
 code --install-extension christian-kohler.path-intellisense
 code --install-extension evilz.vscode-reveal
+code --install-extension 8amjp.charactercount
 
 # VSCode+vimでリピートキーを有効にするコマンド
 # https://github.com/VSCodeVim/Vim/issues/729
