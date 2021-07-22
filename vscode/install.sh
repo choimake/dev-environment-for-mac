@@ -23,6 +23,7 @@ code --install-extension christian-kohler.path-intellisense
 code --install-extension evilz.vscode-reveal
 code --install-extension 8amjp.charactercount
 code --install-extension marp-team.marp-vscode
+code --install-extension formulahendry.code-runner
 
 # VSCode+vimでリピートキーを有効にするコマンド
 # https://github.com/VSCodeVim/Vim/issues/729
