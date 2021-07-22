@@ -7,6 +7,7 @@ brew "tmux"
 brew "vim"
 brew "anyenv"
 brew "graphviz"
+brew "gcc"
 
 cask "iterm2"
 cask "google-chrome"
