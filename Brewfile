@@ -8,6 +8,8 @@ brew "vim"
 brew "anyenv"
 brew "graphviz"
 brew "gcc"
+brew "jenv"
+brew "java"
 
 cask "iterm2"
 cask "google-chrome"

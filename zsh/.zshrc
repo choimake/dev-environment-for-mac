@@ -77,3 +77,10 @@ alias hsi='history | grep -i'
 
 ## 各種*envコマンドのパスを通す
 eval "$(anyenv init -)"
+
+
+#
+# jenv
+#
+
+eval "$(jenv init -)"
