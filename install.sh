@@ -39,7 +39,6 @@ sudo xattr -dr com.apple.quarantine /Applications/Notion.app
 sudo xattr -dr com.apple.quarantine /Applications/Thunderbird.app
 sudo xattr -dr com.apple.quarantine /Applications/Discord.app
 sudo xattr -dr com.apple.quarantine /Applications/Docker.app
-sudo xattr -dr com.apple.quarantine /Applications/Insomnia.app
 sudo xattr -dr com.apple.quarantine /Applications/Clickup.app
 sudo xattr -dr com.apple.quarantine /Applications/Postman.app
 sudo xattr -dr com.apple.quarantine /Applications/JetBrains\ Toolbox.app
