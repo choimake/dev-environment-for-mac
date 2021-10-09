@@ -42,6 +42,7 @@ sudo xattr -dr com.apple.quarantine /Applications/Docker.app
 sudo xattr -dr com.apple.quarantine /Applications/Clickup.app
 sudo xattr -dr com.apple.quarantine /Applications/Postman.app
 sudo xattr -dr com.apple.quarantine /Applications/JetBrains\ Toolbox.app
+sudo xattr -dr com.apple.quarantine /Applications/The\ Unarchiver.app
 
 # dockerはopenしないとコマンドが利用できない
 open /Applications/Docker.app
